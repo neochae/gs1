@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE project>
+<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:wifiAP="http://ns.example.com/epcis" creationDate="2005-07-11T11:30:47.0Z"
+	schemaVersion="1.2">
+	<EPCISBody>
+		<EventList>
+			<ObjectEvent>
+				<eventTime>2017-11-13T10:10:31.116+09:00</eventTime>
+				<eventTimeZoneOffset>+09:00</eventTimeZoneOffset>
+				<epcList>
+					<epc>urn:epc:id:sgtin:012345678901234.000000001</epc>
+				</epcList>
+				<action>ADD</action>
+				<disposition>urn:epcglobal:cbv:disp:in_progress</disposition>
+				<readPoint>
+					<id>urn.epc.id.sgtin:0123456.999999.001</id>
+				</readPoint>
+				<bizLocation>
+					<id>urn.epc.id.sgtin:0123456.999999.001</id>
+				</bizLocation>
+			</ObjectEvent>
+		</EventList>
+	</EPCISBody>
+</epcis:EPCISDocument>
