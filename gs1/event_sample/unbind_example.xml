@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE project>
+<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:wifiap="urn:gs1:epcisapp:wifiap"
+	schemaVersion="1.2" creationDate="2017-11-14T09:05:08.720-04:00">
+	<EPCISBody>
+		<EventList>
+			<ObjectEvent>
+                <eventTime>2017-11-14T10:10:31.116+09:00</eventTime>
+				<eventTimeZoneOffset>+09:00</eventTimeZoneOffset>
+				<epcList>
+					<epc>urn:epc:id:sgtin:0614141.112345.401</epc>
+				</epcList>
+				<action>OBSERVE</action>
+				<bizStep>urn:gs1:epcisapp:wifiap:bizstep:unbind</bizStep>
+				<disposition>urn:epcglobal:cbv:disp:in_progress</disposition>
+				<readPoint>
+					<id>urn:epc:id:sgln:5012345.67890.D123</id>
+				</readPoint>
+				<bizLocation>
+					<id>urn:epc:id:sgln:5012345.67890.0</id>
+				</bizLocation>
+                <wifiap:ssidName xsi:type="xsd:string">GS1AP (01)10614141123452(21)401</wifiap:ssidName>
+                <wifiap:bssId xsi:type="xsd:string">AA:BB:CC:DD:EE:FF</wifiap:bssId>
+			</ObjectEvent>
+		</EventList>
+	</EPCISBody>
+</epcis:EPCISDocument>
